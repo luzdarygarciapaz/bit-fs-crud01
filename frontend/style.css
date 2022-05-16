@@ -1,0 +1,184 @@
+/* BASE 
+* {
+  margin: 0;
+}*/
+body{
+  background-color: rgb(5, 3, 32);
+  margin-left: 9%;
+  font-size: 14px;
+  }
+
+  .principal
+{
+    background-color: white;
+    width: 90%;
+    padding: 5px;
+    text-align: justify;
+    }
+  h1{
+    font-size: 60px;
+    color: #68120c;
+    align-items: center;
+    text-align: center;
+  }
+  .principal {
+    width: 100%;
+  }
+  figure{
+    align-content: center;
+  }
+  .imagen{
+    width: 55%;
+    height: auto;
+    border: 2px solid rgb(24, 23, 23);
+    margin-left: 180px;
+    margin-right: auto;
+  }
+  a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 28px;
+    color: black;
+  }
+  .nav{
+    display: flex;
+    color: #a1490e; 
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  h2{
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align-last: center;
+  color: #610d07c0;
+  }
+
+  .quienes, .preguntas{
+    display: flex;
+    text-align:justify;
+    font-size: 36px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .preguntasd{
+    
+    text-align-last: center;
+    font-size: 28px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 30px;
+  }
+  .preguntase{
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 30px;
+  }
+
+   
+  /*imagenes marcas*/
+  .marcas{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    padding: auto;
+    align-content: center;
+    margin-bottom: 30px;
+    }
+  
+  .img_marcas{
+  width: 75%;
+  height: auto;
+  border: 2px solid rgb(5, 5, 5);
+  }
+  figcaption{
+  font:italic normal 14px Georgia, "Times New Roman", Times, serif;
+  color:#2388c77c;
+  margin-left: 40px;
+  }
+  
+/*preguntas*/
+  ul{
+    list-style: none;
+  }
+
+.fa-circle-question{
+  color: rgba(167, 23, 23, 0.877);
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: 20px;
+  align-self: center;
+}
+.contacto{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+footer{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.fa-instagram{
+  color: rgba(172, 18, 95, 0.877);
+}
+.fa-youtube{
+  color: rgba(114, 9, 9, 0.877);
+}
+
+/* ESCRIBENOS*/
+.cuadrotxt{
+  
+  font-size: 18px;
+  margin-left: 40px;
+  margin-right: 3px;
+  margin-top: 10px;
+  align-content: flex-start;
+}
+
+.enviar{
+  margin-bottom: 5px;
+  font-size: 20px;
+  margin-left: 35px;
+  }
+  
+  .eliminar {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1024px) {
+  .principal {
+    width: 960px;
+    margin: auto;
+  }
+  h2{
+    font-size: 30px;
+    }
+  
+  .quienes, .preguntas, .contacto{
+           font-size: 24px;
+     }
+  figcaption{
+    font-size: 20px;
+  }
+  a {
+     padding-right: 40px;
+    }
+}
+
+
+
+
+
