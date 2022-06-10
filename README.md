@@ -23,4 +23,4 @@ _Paso 1
 _Paso 2
     Dentro del directorio frontend ejecutar en su navegador el archivo Index.html
     
-    Probar la parte de Preguntas/Comentarios# bit-fs-crud01
+    Probar la parte de Preguntas/Comentarios# ghingenieria
